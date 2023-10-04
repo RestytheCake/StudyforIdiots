@@ -1,0 +1,105 @@
+@font-face {
+	font-family: "Schwaben";
+	src: url("../fonts/Schwaben.ttf");
+} 
+@font-face {
+	font-family: "Nabla";
+	src: url("../fonts/Nabla.ttf")
+}
+@font-face {
+	font-family: "Mochiy";
+	src: url("../fonts/Mochiy.ttf")
+}
+
+body {
+	background-image: url("../img/patterndark.png");
+	outline: none;
+	background-size: 100%;
+	background-repeat: inherit;
+	font-family: "Roboto-sans";
+}
+
+::selection {
+	background-color: #00e7ec;
+}
+
+.hoverable:hover {
+	background-color: #d0e8ea;
+}
+
+
+#banner {
+	text-align: center;
+	width: 100%;
+	background-color: coral;
+	font-family: "Roboto-sans";
+	font-size: 100px;
+	font-weight: 900;
+	color: whitesmoke;
+	margin:	0 0 3% 0 ;
+  }
+
+  #produkt-vorschlag {
+	width: auto;
+	height: auto;
+	background-color: antiquewhite;
+	overflow-x: scroll;
+  }
+
+  .product {
+	margin: 15px;
+  }
+
+  .product-table {
+	overflow-x: scroll;
+	display: flex;
+  }
+
+  .product-head {
+	font-size: 300%;
+	margin-left: 3%;
+
+  }
+
+  /* Real Design */
+
+  .row {
+	display: flex;
+	flex-direction: row;
+	overflow-x: visible;
+  }
+
+  .column {
+	display: flex;
+	flex-direction: column;
+	overflow-y: hidden;
+  }
+
+  .show {
+	background-color:	azure;
+	margin-top: 16px;
+	padding-top: 2%;
+	padding-left: 5%;
+  } 
+
+  .show-title {
+	font-size: 150%;
+	font-weight: 600;
+	font-style: italic;
+	font-family: "Mochiy";
+  }
+
+  .beschreibung {
+	margin: 0px;
+  }
+
+  .gäste {
+	display: flex;
+	align-items: center;
+  }
+
+  img {
+
+	box-shadow: 10px 20px 15px silver;
+	border-radius: 20px;
+}
