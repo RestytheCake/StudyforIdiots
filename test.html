@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0px 10px 15px silver;
+            border-radius: 15px;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .card .price {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card .cta {
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .card .cta:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container"> 
+        <div class="card"> 
+            <img src="./img/product/home1.png" alt="Product Image 1"> 
+            <h2>Product Title 1</h2> 
+            <p>Product Description 1</p> 
+            <div class="price">$19.99</div> 
+            <a href="#" class="cta">Add to Cart</a> 
+        </div> <div class="card"> 
+            <img src="./img/product/home2.jpeg" alt="Product Image 2"> 
+            <h2>Product Title 2</h2> 
+            <p>Product Description 2</p> 
+            <div class="price">$29.99</div> 
+            <a href="#" class="cta">Add to Cart</a>
+        </div> <div class="card"> 
+            <img src="./img/product/home3.jpeg" alt="Product Image 3"> 
+            <h2>Product Title 3</h2> 
+            <p>Product Description 3</p> 
+            <div class="price">$39.99</div> 
+            <a href="#" class="cta">Add to Cart</a> 
+        </div> 
+    </div>  
+</body> 
+</html>  
+
