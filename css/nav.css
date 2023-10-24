@@ -33,9 +33,16 @@
 .sidebar:hover > .logotext{
     opacity: 0;
     transition: ease 0.3s;
+    width: auto;
 }
 
-.sidebar >.logotext{
+.sidebar:hover > .logotext > .ltext {
+    width: 0;
+}
+
+
+
+.sidebar > .logotext{
     width: auto;
     height: 100%;
     opacity: 1;
@@ -99,7 +106,6 @@ hr {
 .scroll-container {
     width: 100%; /* Adjust width based on your design */
     overflow-x: auto;
-    white-space: wrap;
 }
 
 .product {
@@ -108,7 +114,7 @@ hr {
     background-color: #ffffff;
     padding: 20px;
     width: 300px;
-    box-shadow: 0px 10px 15px silver;
+    box-shadow: 0 10px 15px silver;
     border-radius: 15px;
 }
 
@@ -117,9 +123,6 @@ hr {
     height: auto;
 }
 
-/* Additional styling as needed */
-
-/* Styles for navigation items */
 
 
 

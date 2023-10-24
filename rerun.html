@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/test.css">
     <link rel="stylesheet" href="css/nav.css">
+    <script language="javascript" type="text/javascript" src="js/like.js"></script>
     <link rel="icon" type="image/x-icon" href="favicon.svg">
     <title>Homepage</title>
 </head>
-<body>
+<body onload="check_heart();" >
     <div class="sidebar">
         <div class="item">
             <img id="logo" src="./img/logo.png" alt="StudyforIdiots Logo" width="50px" height="50px">
@@ -70,7 +71,7 @@
                         <div class="price">$19.99</div>
                         <div class="rating">
                             <div class="stars">⭐⭐⭐⭐⭐</div>
-                            <div class="favorite">❤</div>
+                            <div class="favorite" id="title1" onclick="heart('title1')">❤</div>
                         </div>
                         <a href="#" class="cta">Add to Cart</a>
                     </div>
@@ -81,7 +82,7 @@
                         <div class="price">$29.99</div>
                         <div class="rating">
                             <div class="stars">⭐⭐⭐⭐⭐</div>
-                            <div class="favorite">❤</div>
+                            <div class="favorite" id="title2" onclick="heart('title2')">❤</div>
                         </div>
                         <a href="#" class="cta">Add to Cart</a>
                     </div>
@@ -92,7 +93,7 @@
                         <div class="price">$39.99</div>
                         <div class="rating">
                             <div class="stars">⭐⭐⭐⭐⭐</div>
-                            <div class="favorite">❤</div>
+                            <div class="favorite" id="title3" onclick="heart('title3')">❤</div>
                         </div>
                         <a href="#" class="cta">Add to Cart</a>
                     </div>
